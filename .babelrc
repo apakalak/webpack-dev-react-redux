@@ -1,5 +1,9 @@
 {
+    //npm install babel-preset-env, babel-preset-react for understanding syntax
     "presets": [
-        "env", "react"
-    ]
+        "es2015", "env", "react"
+    ],
+
+    //npm install 'babel-plugin-transform-object-rest-spread' to transform ... to older syntax
+    "plugins": ["transform-object-rest-spread"]
 }
